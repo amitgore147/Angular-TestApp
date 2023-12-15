@@ -7,9 +7,4 @@ import { Observable, of } from 'rxjs';
 export class CommonServiceService {
 
   constructor() { }
-
-  getData(): Observable<string> {
-    // Simulate fetching data from a server
-    return of('Data from the server');
-  }
 }

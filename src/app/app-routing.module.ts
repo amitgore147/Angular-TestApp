@@ -11,6 +11,10 @@ const routes: Routes = [
   {
     path:"child",
     component:ChildComponent
+  },
+  {
+    path:"",
+    component:ParentComponent
   }
 ];
 
